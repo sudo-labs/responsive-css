@@ -1,9 +1,6 @@
 html, body {
-	margin: 0;
-
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-
 	color: #000000;
 }
 
@@ -11,12 +8,10 @@ html, body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-
-	padding: 2rem;
 }
 
 .card {
-	max-width: 250px;
+	flex-basis: 250px;
 	margin: 1.5rem;
 	border: 1px solid #cfd8dc;
 	border-radius: 5px;
@@ -24,7 +19,7 @@ html, body {
 
 .card__img {
 	width: 100%;
-	border-radius: 5px 5px 0 0;
+	border-radius: 5px;
 }
 
 .card__copy {

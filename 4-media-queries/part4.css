@@ -10,8 +10,6 @@ html, body {
 .main {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-
-	min-height: 100vh;
 }
 
 .sidebar {
@@ -43,7 +41,7 @@ html, body {
 }
 
 .card {
-	max-width: 250px;
+	flex-basis: 250px;
 	margin: 1.5rem;
 	border: 1px solid #cfd8dc;
 	border-radius: 5px;
@@ -70,6 +68,10 @@ html, body {
 
 	.main {
 		display: block;
+	}
+
+	.card {
+		flex-grow: 1;
 	}
 
 	.sidebar {
